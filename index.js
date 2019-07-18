@@ -29,7 +29,7 @@ function currentLine(deliLine){
     return "The line is currently empty."
   } else {
     let i = i + 1;
-    return `The line is currently: ${katzDeli.length}. `
+    return `The line is currently: ${deliLine}. `
   }
 }
 
