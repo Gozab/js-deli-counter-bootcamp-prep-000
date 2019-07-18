@@ -11,10 +11,12 @@ takeANumber(katzDeli, name);
 
 
 function nowServing(katzDeli){
-  if deliLine.length = 0 {
+  if (deliLine.length = 0) {
     return "There is nobody waiting to be served!"
-  }
-  return `"Currently serving ${deliLine[0]}."`
+  } else
+  return `"Currently serving ${deliLine[0]}."`;
+  
+  
   
 }
 
