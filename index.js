@@ -1,4 +1,4 @@
-var line = katzDeliLine[line] + 1;
+var line = katzDeliLine[line];
 
 function takeANumber(line, name) {
   return `"Welcome, ${name}. You are number ${line} in line."`
