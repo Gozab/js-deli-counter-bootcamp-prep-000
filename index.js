@@ -28,7 +28,8 @@ function currentLine(deliLine){
   if (deliLine.length === 0) {
     return "The line is currently empty."
   } else {
-    return `The line is currently: ${katzDeli.length}. 
+    let i = i + 1;
+    return `The line is currently: ${katzDeli.length}. `
   }
 }
 
