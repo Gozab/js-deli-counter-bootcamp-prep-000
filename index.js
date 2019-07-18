@@ -29,7 +29,7 @@ function currentLine(deliLine){
   } else {
     //let i = 0;
     for (var i = 0; i < deliLine.length; i++) {
-    return `The line is currently: ${deliLine.map((v, i) => `${i + 1}. ${v}`.join(''}, `
+    return `The line is currently: ${deliLine.map((v, i) => `${i + 1}. ${v}`.join(', ')}`;
     
     }
   }
