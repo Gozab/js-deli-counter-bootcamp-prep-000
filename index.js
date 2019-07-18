@@ -33,7 +33,7 @@ function currentLine(deliLine){
     //return deliLine.slice(0, -1);
     //}
     deliLine = deliLine.map((c, i) => `${i + 1}. ${c}`).join(', ');
-    return deliLine;
+    return `The line is currently ${deliLine}`;
   }
 }
 
