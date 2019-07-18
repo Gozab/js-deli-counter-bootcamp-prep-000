@@ -28,7 +28,7 @@ function currentLine(deliLine){
   if (deliLine.length === 0) {
     return "The line is currently empty."
   } else {
-    let i = 1;
+    let i = 0;
     while (i < deliLine.length) {
     return `The line is currently: ${i}. ${deliLine[i]}. `
     i++;
