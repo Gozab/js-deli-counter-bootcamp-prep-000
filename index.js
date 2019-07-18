@@ -30,7 +30,7 @@ function currentLine(deliLine){
   } else {
     let i = 0;
     while (i < 4) {
-    return `The line is currently: ${i+1}. ${deliLine[i]}. `
+    return `The line is currently: ${i+1}. ${deliLine[i]}, `
     i++;
     }
   }
