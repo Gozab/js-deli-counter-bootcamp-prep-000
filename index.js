@@ -3,7 +3,7 @@ function takeANumber(katzDeli, name) {
   let i = 0;
   i++;
   katzDeli.push(i);
-  return `"Welcome, ${name}. You are number ${katzDeli.slice(-1)} in line."`
+  return `"Welcome, ${name}. You are number ${katzDeli.length} in line."`
 }
 
 takeANumber(katzDeli, name);
