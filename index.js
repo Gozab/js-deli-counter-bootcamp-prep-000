@@ -11,6 +11,7 @@ takeANumber(katzDeli, name);
 
 
 function nowServing(katzDeli){
+  return `"Currently serving ${katzDeli[0]}."`
   
 }
 
