@@ -29,7 +29,7 @@ function currentLine(deliLine){
     return "The line is currently empty."
   } else {
     //let i = 0;
-    for (i = 0; i < deliLine.length; i++) {
+    for (var i = 0; i < deliLine.length; i++) {
     return `The line is currently: ${i+1}. ${deliLine[i]}, `
     
     }
