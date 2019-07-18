@@ -1,4 +1,4 @@
-var line = katzDeliLine.length;
+var line = katzDeli.slice(-1);
 //probably want to return the array and just slice off the last position
 function takeANumber(line, name) {
    return `"Welcome, ${name}. You are number ${line} in line."`
