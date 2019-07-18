@@ -31,7 +31,7 @@ function currentLine(deliLine){
     let result = `The line is currently: `
     for (var i = 0; i < deliLine.length; i++) {
     result = `${result} ${i+1}. ${deliLine[i]},`
-    return result;
+    return result.slice(0, -1);
     }
   }
 }
