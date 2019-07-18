@@ -6,3 +6,20 @@ function takeANumber(katzDeli, name) {
 }
 
 takeANumber(katzDeli, name);
+
+//----------------------------//
+
+
+function nowServing(katzDeli){
+  
+}
+
+nowServing(katzDeli);
+
+//----------------------------//
+
+
+function currentLine(katzDeli){
+  
+}
+
