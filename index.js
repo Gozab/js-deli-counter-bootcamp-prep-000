@@ -28,10 +28,10 @@ function currentLine(deliLine){
   if (deliLine.length === 0) {
     return "The line is currently empty."
   } else {
-    let i = 0;
-    for (i) {
+    //let i = 0;
+    for (i = 0, i < deliLine.length, i++) {
     return `The line is currently: ${i+1}. ${deliLine[i]}, `
-    i++;
+    
     }
   }
 }
