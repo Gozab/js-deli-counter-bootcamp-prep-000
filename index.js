@@ -29,7 +29,7 @@ function currentLine(deliLine){
     return "The line is currently empty."
   } else {
     let i = 0;
-    while (i < 4) {
+    for (i) {
     return `The line is currently: ${i+1}. ${deliLine[i]}, `
     i++;
     }
