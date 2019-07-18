@@ -1,7 +1,6 @@
 //probably want to return the array and just slice off the last position
 function takeANumber(line, name) {
-  line = katzDeli.length;
-   return `"Welcome, ${name}. You are number ${line} in line."`
+  return `"Welcome, ${name}. You are number ${katzDeli} in line."`
 }
 
-takeANumber(line, name);
+takeANumber(katzDeli, name);
