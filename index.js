@@ -28,10 +28,9 @@ function currentLine(deliLine){
     return "The line is currently empty."
   } else {
     //let i = 0;
-    let result = `The line is currently: `
     for (var i = 0; i < deliLine.length; i++) {
-    result = `${result} ${i+1}. ${deliLine[i]},`
-    return result.slice(0, -1);
+    deliLine = ${i+1}. ${deliLine[i]};
+    return deliLine.slice(0, -1);
     }
   }
 }
