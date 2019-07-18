@@ -1,6 +1,5 @@
 //--------TAKE-A-NUMBER--------//
 function takeANumber(katzDeli, name) {
-  let i = i + 1;
   katzDeli.push(name);
   return `Welcome, ${name}. You are number ${katzDeli.length} in line.`
 }
