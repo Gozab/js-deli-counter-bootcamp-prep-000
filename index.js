@@ -1,4 +1,4 @@
-
+//--------TAKE-A-NUMBER--------//
 function takeANumber(katzDeli, name) {
   let i = i + 1;
   katzDeli.push(i);
@@ -7,7 +7,7 @@ function takeANumber(katzDeli, name) {
 
 takeANumber(katzDeli, name);
 
-//----------------------------//
+//--------NOW-SERVING---------//
 
 
 function nowServing(deliLine){
@@ -21,7 +21,7 @@ function nowServing(deliLine){
 
 nowServing(deliLine);
 
-//----------------------------//
+//-------CURRENT-LENGTH-------//
 
 
 function currentLine(deliLine){
